@@ -1,6 +1,5 @@
 library(plyr)
 library(dplyr)
-setwd("project")
 train = read.table("train/X_train.txt")
 test = read.table("test/X_test.txt")
 mergedData= merge(train,test,all=TRUE)
